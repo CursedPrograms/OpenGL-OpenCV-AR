@@ -23,7 +23,7 @@
   </div>  
   <br>
 
-# 631-augmented-reality
+# OpenGL-OpenCV-AR
 
 ## How to Run:
 
