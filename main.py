@@ -51,10 +51,10 @@ def init_gl(width, height):
     glMatrixMode(GL_MODELVIEW)
         
     # load object
-    obj = OBJ('models\EO0AAAMXQ0YGMC13XX7X56I3L_obj\EO0AAAMXQ0YGMC13XX7X56I3L.obj', swapyz=False)
-    obj2 = OBJ('models\mario\HK40D7AZNBRT97PMCRL6ICE81.obj', swapyz=False)
-    obj3 = OBJ("models\castle\castle.obj", swapyz=False)
-    obj4 = OBJ("models\dragon\T582EI6OALSFRVGONWQ5YIKU2.obj", swapyz=False)
+    obj = OBJ('models/EO0AAAMXQ0YGMC13XX7X56I3L_obj/EO0AAAMXQ0YGMC13XX7X56I3L.obj', swapyz=False)
+    obj2 = OBJ('models/mario/HK40D7AZNBRT97PMCRL6ICE81.obj', swapyz=False)
+    obj3 = OBJ('models/castle/castle.obj', swapyz=False)
+    obj4 = OBJ('models/dragon/T582EI6OALSFRVGONWQ5YIKU2.obj', swapyz=False)
 
     # assign texture
     glEnable(GL_TEXTURE_2D)
