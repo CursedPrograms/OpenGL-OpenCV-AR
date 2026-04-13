@@ -27,16 +27,25 @@
 
 ## How to Run:
 
-### Install Requirements
+## How to Run:
+### Setup Virtual environment
 
-Using Python directly:
-
+#### Lunix
 ```bash
+python -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
-Or run: 
-- `install_requirements.bat`
-
+#### Windows PowerShell
+```bash
+python.exe -m pip install --upgrade pip
+py -3.11 -m venv venv311
+venv311\Scripts\activate
+pip install -r requirements.txt
+```
+```bash
+chmod +x setup.sh
+```
 <br>
 
 ### Run main.py
